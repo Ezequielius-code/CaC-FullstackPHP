@@ -1,0 +1,96 @@
+h1 {
+    color: blue;
+}
+
+header {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+footer {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2 {
+    color: darkorchid;
+}
+
+div {
+    color: brown;
+    margin-top: 20px;
+}
+
+#principal {
+    color: coral;
+}
+
+#barra {
+
+}
+
+section {
+    margin-top: 20px;
+}
+
+#seccion1 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#seccion2 {
+    margin-top: 20px;    
+}
+
+.estiloclase {
+    padding-left: 15px;
+    padding-right: 15px;
+    color: deeppink!important;
+}
+
+#caja_principal {
+    background-color: aqua;
+    width: 800px;
+    height: 600px;
+    margin-top: 15px;
+}
+
+.estilo_caja {
+    width: 60px;
+    height: 60px;
+}
+
+#caja1 {
+    background-color: blue;
+    width: 60px;
+    height: 60px;
+    border-style: solid;
+    border-color: crimson;
+    border-width: 2px;
+    display: inline;
+}
+
+#caja2 {
+    background-color: blue;
+    border-style: solid;
+    border-color: rgb(54, 190, 26);
+    border-width: 6px;
+    display: inline;
+}
+
+#caja3 {
+    background-color: royalblue;
+    border-style: dotted;
+    border-color: rgb(54, 190, 26);
+    border-width: 3px;
+    display: inline;
+}
