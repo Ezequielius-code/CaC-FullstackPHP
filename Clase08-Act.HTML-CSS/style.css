@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color: #ffffcc;
+    min-height: 100vh;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+header {
+    margin-top: 10px;
+    background-color: #009900;
+    position: fixed;
+}
+
+h1 {
+    text-align: center;
+    padding: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    color: white;
+}
+
+.titulo_div {
+    text-align: center;
+    padding: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+nav {
+    text-align: center;
+}
+
+.link_nav {
+    padding: 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 3px;
+    font-size: 12px;
+    color: white;
+}
+
+.div_index {
+    width: 1500px;
+    height: 500px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#perfil {
+    background-color: #0066ff;
+}
+
+#imagen_perfil {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border: outset 5px #66ff33;
+    display: block;
+}
+
+.parrafo_index { 
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+#parrafo_ubicacion {
+    margin-top: 0px;
+    padding-top: 10px;
+}
+
+#ubicacion {
+    background-color: #ff0000;
+}
+
+#plano {
+    width: 500px;
+    height: 375px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: block;
+    border: inset 5px #ffcc00;
+}
+
+#pasatiempos {
+    margin-bottom: 30px;
+    position: relative;
+    background-color: #ffcc00;
+}
+
+.contenedor_pasatiempos {
+    overflow: hidden;
+    width: 500px;
+    height: 100px;
+    position: absolute;
+    top: 12.5%;
+    left: 33.33%;
+    border-radius: 10px;
+    background-color: #009900;
+    color: #ffcc00;
+}
+
+.contenedor_pasatiempos:hover {
+    height: 375px;
+    background-color: #ffcc00;
+    color: #009900;
+}
+
+#titulo_pasatiempos {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+
+ul {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.div_estudios {
+    float: left;
+    width: 500px;
+    height: 600px;
+    background-color: aqua;
+    margin-top: 100px;
+    margin-left: 260px;
+}
+
+#utn {
+    background-color: #0066ff;
+}
+
+#cac {
+    background-color: #ff0000;
+}
+
+.logos_estudios {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: ridge 5px #006699;
+    display: block;
+}
+
+.parrafo_estudios {
+    margin-top: 5px;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+.div_footer {
+    width: 100%;
+    height: 50px;
+    background-color: #6633cc;
+    color: white;
+    position: absolute;
+    bottom: 0;
+}
+
+#parrafo_footer {
+    text-align: center;
+    padding: 5px;
+}
+
+.links_footer {
+    text-align: center;
+}
