@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.disenio_caja {
+    width: 70px;
+    height: 70px;
+}
+
+#caja1 {
+    background-color: blue;
+    margin-bottom: 15px;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+#caja2 {
+    background-color: red;
+    margin-top: 30px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: cornflowerblue;
+}
+
+a:active {
+    color: red;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+/* h1:hover {
+    color: darkorange;
+    font-size: 50px;
+    display: none;
+} */
+
+#caja1:hover {
+    background-color: greenyellow;
+    position: relative;
+    left: 150px;
+}
+
+#caja2:active {
+    background-color: bisque;
+}
+
+a::after {
+    content: "|";
+}
+
+a::before {
+    content: "*";
+}
+
+h1 {
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+#caja-contenedora-header {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+img {
+    width: 400px;
+}
+
+#imagen-fondo {
+    width: 100%;
+    height: 600px;
+    background-image: url('img/fondo.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.nuevo-disenio {
+    font-size: 150px;
+    color: blue;
+    display: block;
+}
+
+#personal-icon {
+    color: red;
+}
+
+.sacar-block {
+    display: inline-block;
+    width: 150px;
+    height: 250px;
+    margin-right: 50px;
+}
+
+#logo1 {
+    background-color: yellow;
+}
+
+#logo2 {
+    background-color: darkblue;
+}
+
+#logo3 {
+    background-color: red;
+}
+
+footer {
+    width: 100%;
+    background-color: dimgray;
+    height: 50px;
+    color: aliceblue;
+}

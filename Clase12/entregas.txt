@@ -1,0 +1,17 @@
+1---Presentación personal. (Modo texto).
+Entrega en: Foro.
+
+2---Presentación personal. (Tormenta de ideas).
+◘ clientes: nosotros mismos
+◘ tomar referencias
+◘ Boceto (lápiz-Figma-XD)
+◘ Estructura (HTML5)
+◘ CSS
+◘ Bootstrap
+Entrega en: 
+
+3---Desafío Bienes Raíces.
+Entrega en: 
+
+4---TP Integrador Front-End (conferencias).
+Entrega en:

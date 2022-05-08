@@ -1,0 +1,19 @@
+#img1 {
+    width: 50px;
+}
+
+#card-principal img {
+    width: 150px!important;
+}
+
+.tamanio-img img {
+    width: 85px;
+}
+
+#contenido {
+    background-color: aquamarine;
+}
+
+.carrousel-img img {
+    width: 300px!important;
+}

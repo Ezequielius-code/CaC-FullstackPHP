@@ -1,0 +1,77 @@
+* {
+    margin: 0px;
+}
+
+#header-img {
+    width: 100%;
+    height: 1000px;
+    background-image: url('/img/backgroundHeader.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header-bar {
+    width: 100%;
+    height: 120px;
+    background-color: black;
+    color: white;
+    position: fixed;
+}
+
+#logo {
+    width: 200px;
+    height: 100px;
+    margin-left: 45%;
+}
+
+#nav-bar {
+    margin-top: 0px;
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.link-nav:hover {
+    text-decoration: underline;
+    color: #ff6;
+}
+
+.link-nav:active {
+    text-decoration: none;
+    color: #ffc;
+}
+
+#box-main {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.align-boxes {
+    display: inline-block;
+    width: 470px;
+    height: 600px;
+    margin-left: 150px;
+}
+
+.div-section {
+    border: solid 1px black;
+    padding: 10px;
+}
+
+#product {
+    width: 470px;
+    height: 600px;
+    text-align: center;
+}
