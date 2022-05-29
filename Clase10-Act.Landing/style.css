@@ -2,6 +2,12 @@
     margin: 0px;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 #header-img {
     width: 100%;
     height: 1000px;
@@ -58,20 +64,318 @@
     text-align: center;
 }
 
-.align-boxes {
-    display: inline-block;
-    width: 470px;
-    height: 600px;
-    margin-left: 150px;
+h2 {
+    padding: 25px;
+    font-size: 35px;
 }
 
 .div-section {
-    border: solid 1px black;
-    padding: 10px;
+    float: left;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 275px;
 }
 
-#product {
-    width: 470px;
+.product {
+    margin: auto;
+    margin-top: 25px;
+    width: 400px;
+    height: 450px;
+}
+
+.h3-title {
+    margin-top: 155px;
+    font-size: 25px;
+}
+
+.product-description {
+    margin-left: 75px;
+    margin-right: 75px;
+    padding-top: 10px;
+}
+
+#jewelry {
+    margin-top: 600px;
+}
+
+#bridal {
+    margin-top: 600px;
+}
+
+#watches {
+    margin-top: 600px;
+}
+
+#gifts {
+    margin-top: 750px;
+}
+
+.div-triptych {
+    float: left;
+    width: 300px;
+    height: 650px;
+    margin-top: 50px;
+    margin-left: 250px;
+    border: solid black 1px;
+}
+
+.triptych-product {
+    margin-top: 0px;
+    width: 300px;
+    height: 300px;
+}
+
+.triptych-product-name {
+    margin-top: 30px;
+}
+
+.triptych-product-description {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.appointment {
+    margin-top: 50px;
+    text-align: justify;
+    margin-left: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: cornflowerblue;
+}
+
+.options {
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.icon {
+    float: left;
+    width: 35px;
+    height: 35px;
+}
+
+.icon-text {
+    float: left;
+    width: 60px;
+    height: 30px;
+    font-size: 12px;
+}
+
+.button-shop {
+    margin-top: 50px;
+    width: 240px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+.button-shop:hover {
+    color: #ff6;
+}
+
+#app2 {
+    margin-top: 70px;
+}
+
+.div-gifts {
+    float: left;
+    width: 400px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 175px;
+    border: solid black 1px;
+}
+
+.gift-icon {
+    margin-top: 0px;
+    width: 200px;
+    height: 200px;
+}
+
+#square-icon {
+    margin-top: 50px;
+    width: 160px;
+    height: 160px;
+}
+
+.gift-title {
+    margin-top: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+#shipping-title {
+    margin-top: 40px;
+}
+
+.gift-text {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size: 18px;
+}
+
+#boutiques {
+    margin-top: 600px;
+    width: 100%;
     height: 600px;
+    background-image: url(img/shopfront.webp);
+}
+
+#boutiques-title {
+    padding-top: 350px;
+    color: white;
+    text-align: justify;
+}
+
+#boutiques-paragraph {
+    width: 450px;
+    margin-left: 25px;
+    text-align: justify;
+    padding-top: 10px;
+    font-size: 18px;
+    color: white;
+}
+
+#boutiques-button {
+    width: 300px;
+    height: 50px;
+    margin-top: 35px;
+    margin-left: -1500px;
+    position: relative; 
+    font-size: 16px;  
+    font-weight: bolder;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    position: inherit;
+}
+
+#boutiques-button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.div-creations {
+    float: left;
+    width: 1000px;
+    height: 770px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.div-vision {
+    float: left;
+    width: 600px;
+    height: 770px;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+#creations-title {
+    margin-top: 50px;
+}
+
+.creations {
+    width: 1000px;
+    height: 300px;
+    margin-top: 30px;
+}
+
+.img-creations {
+    float: left;
+}
+
+.creations-title {
+    margin-top: 10px;
+}
+
+.creations-date {
+    width: 800px;
+    margin-top: 20px;
+    margin-left: 50px;
+    border-top: 2px solid black;
+}
+
+span {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    color: orange;
+}
+
+.creations-paragraph {
+    margin-top: 30px;
+}
+
+#vision {
+    width: 500px;
+    height: 500px;
+    margin-top: 100px;
+    margin-left: 60px;
+    background-color: black;
+    color: white;
+    border-radius: 10%;
+}
+
+#quote {
+    font-size: 90px;
+    text-align: justify;
+    margin-left: 15px;
+}
+
+#vision-quote {
+    padding-top: 40px;
+    margin: auto;
+    width: 400px;
+    font-size: 20px;
+}
+
+#author {
+    padding-top: 100px;
+    font-size: 25px;
+}
+
+footer {
+   width: 100%;
+   height: 200px;
+   margin-top: auto;
+   border-top: 3px solid rgba(0, 0, 0, 0.2);
+   text-align: center;
+}
+
+#icons {
+    width: 700px;
+    height: 75px;
+    margin: auto;
     text-align: center;
+    border-bottom: 1px solid black;
+}
+
+.footer-icons {
+    padding-top: 20px;
+    margin-left: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+#footer-nav {
+    margin-top: 40px;
+}
+
+.footer-button {
+    padding: 7px 15px;
+    margin-left: 35px;
+    color: black;
+    text-decoration: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.footer-button:hover, .footer-button:focus, .footer-button:active {
+  border: 1px solid black;
 }
