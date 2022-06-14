@@ -1,0 +1,189 @@
+.nav-color {
+    background-color:  #383c44;
+}
+
+#logo {
+    margin-left: 10%;
+}
+
+#navbarNav {
+    padding-left: 30%;
+}
+
+#tickets-text {
+    color: #28a444;
+}
+
+header {
+    position: relative;
+}
+
+header .carousel img {
+    filter: brightness(0.4);
+}
+
+#div-carousel {
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    width: 500px;
+    text-align: right;
+}
+
+#wanna-be-button {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#tickets-button {
+    color: white;
+    background-color: #28a444;
+    text-decoration: none;
+    margin-right: 5px;
+    padding: 10px;
+    border: 1px solid rgb(40, 164, 68);
+    border-radius: 5px;
+}
+
+#wanna-be-button:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+    color: black;
+}
+
+#tickets-button:hover {
+    background-color: rgb(55, 200, 80);
+    border: 1px solid rgb(55, 200, 80);
+}
+
+#speakers-title {
+    width: 100%;
+    text-align: center;
+}
+
+#small-titles {
+    font-size: 14px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+#big-titles {
+    font-size: 35px;
+}
+
+#speakers-div {
+    margin: auto;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#speakers {
+    max-width: 405px;
+}
+
+.card-title {
+    font-size: 22px;
+}
+
+#location {
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.div-location {
+    width: 50%;
+    height: 600px;
+    border: solid 0.2px white;
+}
+
+#location-pic {
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+
+#location-info {
+    background-color: #383c44;
+    color: white;
+}
+
+#location-title {
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 30px;
+}
+
+#location-text {
+    margin-left: 15px;
+    margin-right: 16px;
+    margin-bottom: 30px;
+    font-size: 18px;
+}
+
+#know-more-button {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+#know-more-button:hover {
+    background-color: rgba(255, 255, 255, 0.35);
+    color: black;
+}
+
+#be-a-speaker {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#be-a-speaker-text {
+    font-size: 17px;
+}
+
+#form {
+    margin-left: 29%;
+    margin-right: 29%;
+}
+
+#form-textarea {
+    font-size: larger;
+}
+
+#button-send {
+    background-color: #98cc3c;
+    color: white;
+    font-size: larger;
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+#footer-div {
+    margin-top: 15px;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(90deg, #203444, #205474);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.footer-item {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: min-content;
+}
