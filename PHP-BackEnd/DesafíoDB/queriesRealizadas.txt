@@ -1,0 +1,36 @@
+2.1
+SELECT apellido FROM `empleados`;
+2.2
+SELECT DISTINCT apellido FROM `empleados`;
+2.3
+SELECT * FROM `empleados` WHERE apellido = "López"
+2.4
+SELECT * FROM `empleados` WHERE apellido = "López" OR apellido = "Pérez";
+2.5
+SELECT * FROM `empleados` WHERE nro_departamento = 14;
+2.6
+SELECT * FROM `empleados` WHERE nro_departamento = 37 OR nro_departamento = 77;
+2.7
+SELECT * FROM `empleados` WHERE apellido LIKE "P%";
+2.8
+SELECT SUM(presupuesto) AS 'Presupuesto_Total' FROM `departamentos`;
+2.9
+SELECT * FROM `empleados` JOIN `departamentos` WHERE empleados.nro_departamento = departamentos.nro_dpto;
+2.10
+SELECT empleados.nombre, empleados.apellido, departamentos.nombre_dpto, departamentos.presupuesto 
+FROM `empleados` INNER JOIN `departamentos` WHERE empleados.nro_departamento = departamentos.nro_dpto;
+2.11
+SELECT empleados.nombre, empleados.apellido FROM `empleados` INNER JOIN `departamentos` 
+WHERE empleados.nro_departamento = departamentos.nro_dpto AND departamentos.presupuesto > 60000;
+2.12
+INSERT INTO departamentos(nro_dpto, nombre_dpto, presupuesto) VALUES (11, 'Calidad', 40000);
+INSERT INTO empleados(dni, nombre, apellido, nro_departamento) VALUES (89267109, 'Esther', 'Vázquez', 11);
+2.13
+UPDATE departamentos SET presupuesto = presupuesto - (presupuesto * 0.1);
+2.14
+UPDATE empleados SET nro_departamento = 14 WHERE nro_departamento = 77;
+2.15
+DELETE FROM empleados WHERE nro_departamento = 14;
+2.16
+DELETE empleados.* FROM empleados INNER JOIN departamentos 
+ON empleados.nro_departamento = departamentos.nro_dpto WHERE departamentos.presupuesto > 90000;
