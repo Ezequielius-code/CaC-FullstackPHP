@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form HTML + PHP</title>
+</head>
+<body>
+    <h1>Bienvenidos a la parte divertida de PHP. 🥳</h1>
+    <h2>Método GET</h2>
+    <!--El cliente pide datos al server-->
+    <!--OJO!!! El método GET expone los datos en la barra de dirección del browser-->
+    <form action="recibir.php" method="GET">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido">
+        <label for="edad">Edad</label>
+        <input type="text" id="edad" name="edad">
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <h2>Método POST</h2>
+    <!--El cliente envía datos al server-->
+    <!--Al no exponer datos, lo uso cuando envío información sensible.-->
+    <form action="recibir.php" method="POST">
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido">
+        <label for="edad">Edad</label>
+        <input type="text" id="edad" name="edad">
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
